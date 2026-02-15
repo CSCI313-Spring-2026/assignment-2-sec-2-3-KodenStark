@@ -1,0 +1,19 @@
+img {
+  border-radius: 2em;
+  float: left;
+}
+
+.grid-container {
+  display: grid;
+  place-items: center;
+}
+
+.headshot {
+  width: 50%;
+  height: auto;
+}
+
+div .col-md-6 {
+  border: solid darkgray;
+  margin-top: 20px;
+}
