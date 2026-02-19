@@ -1,0 +1,503 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Webpage</title>
+    <link rel="stylesheet" href="CSS/main.css" />
+    <!-- Bootstrap Link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body style="background-color: rgb(102, 122, 111)">
+    <!-- Navbar -->
+    <nav
+      class="navbar navbar-dark bg-dark navbar-expand-lg bg-body-territory fixed-top"
+      data-bs-theme="dark"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="#introduction"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#dropdown-menu"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#about-me">About Me</a></li>
+                <li><a class="dropdown-item" href="#portfolio">Portfolio</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero section -->
+    <div
+      class="bg-light p-5 text-center"
+      style="margin-top: 56px; color: black"
+    >
+      <h1>Welcome!</h1>
+      <p>This is my personal website! Click below to get started!</p>
+      <a class="btn btn-primary btn-lg" href="#introduction">Get Started</a>
+    </div>
+
+    <br />
+
+    <!-- Home Section -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6" id="introduction">
+          <h1 style="margin-top: 10px">Introduction</h1>
+          <p>
+            Hello! My name is Koden Stark. I am an NDSU student currently
+            pursuing a Bachelor's Degree of Science in Software Engineering.
+            Curently, I am building my experience in software through the
+            classes that I am taking. This website page is an assignment for my
+            Software Development class, applying HTML, CSS, and Bootstrap
+            concepts and practices. In the future, I hope to use the skills that
+            I am learning in college for a career in the software field! While
+            pursuing my degree, I am also a father and husband at home and serve
+            locally at Northview Church. I also enjoy cooking, playing pool, and
+            playing pickleball in my free time!
+          </p>
+        </div>
+        <div class="col-md-6">
+          <div class="flexcontainer">
+            <div>
+              <h1 id="bio">Bio</h1>
+              <ul>
+                <li>
+                  Name: Koden Stark<span
+                    class="badge rounded-pill text-bg-secondary"
+                    >Student</span
+                  >
+                  <span class="badge rounded-pill text-bg-secondary"
+                    >Majoring in Software Engineering</span
+                  >
+                </li>
+                <li>Age: 22</li>
+                <li><address>1234 Street Ave, Fargo, ND 58102</address></li>
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. A,
+                  tempora!
+                </li>
+              </ul>
+            </div>
+            <div>
+              <img src="Images/Headshot.jpg" class="headshot" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br />
+    <hr />
+    <br />
+
+    <!-- About Me Section -->
+
+    <div>
+      <h1 id="about-me">
+        <u>About Me</u>
+      </h1>
+    </div>
+    <br />
+
+    <!-- Personal Background, Profesional Background, Extracurricular -->
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h3><u>Personal Background</u></h3>
+          <p>
+            As I said earlier, I am Koden. I am a student at NDSU who is
+            pursuing his next steps in life. I always enjoy learning new things
+            in my adventure as well as growing in my faith. As a husband and
+            father, I am constantly learning how to manage my time and balance
+            my priorities. I am excited to see where life takes me in the future
+            and what I can accomplish with the skills that I am learning in
+            college!
+          </p>
+        </div>
+        <div class="col-md-4">
+          <h3><u>Professional Background</u></h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
+            porro fugit aliquam dolores doloremque consequuntur veniam
+            perspiciatis dolor ullam expedita blanditiis, at iure a corrupti
+            voluptatum placeat error exercitationem alias.
+          </p>
+        </div>
+        <div class="col-md-4">
+          <h3><u>Extracurricular</u></h3>
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                  style="background-color: darkolivegreen; color: white"
+                >
+                  <u><b>Hobbies</b></u>
+                </button>
+              </h2>
+              <div
+                id="collapseOne"
+                class="accordion-collapse collapse show"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body-one">
+                  <ol>
+                    <li>Cooking</li>
+                    <li>Playing Guitar</li>
+                    <li>Playing Pool</li>
+                    <li>Playing Pickleball</li>
+                    <li>Board Games</li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo"
+                  style="background-color: beige"
+                >
+                  <u><b>Favorite Websites</b></u>
+                </button>
+              </h2>
+              <div
+                id="collapseTwo"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body-two">
+                  <ul>
+                    <li><a href="https://www.youtube.com/">YouTube</a></li>
+                    <li><a href="https://www.amazon.com/">Amazon</a></li>
+                    <li><a href="https://www.chess.com/">Chess.com</a></li>
+                    <li><a href="https://www.delish.com/">Delish</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree"
+                  aria-expanded="false"
+                  aria-controls="collapseThree"
+                  style="background-color: burlywood"
+                >
+                  <u><b>Favorite Movies</b></u>
+                </button>
+              </h2>
+              <div
+                id="collapseThree"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body-three">
+                  <ul>
+                    <li>Harry Potter Movies</li>
+                    <li>The Case for Christ</li>
+                    <li>Overcomer</li>
+                    <li>Facing the Giants</li>
+                    <li>Courageous</li>
+                    <li>The War Room</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Class Schedule -->
+
+    <div style="margin-top: 5em" class="container">
+      <h3><u>My Schedule</u></h3>
+      <div class="row" style="margin-top: 2em">
+        <div class="col-lg-12">
+          <table class="table table-striped table-hover">
+            <thead>
+              <tr>
+                <th class="header" scope="col"><u>Day</u></th>
+                <th class="header" scope="col"><u>Class</u></th>
+                <th class="header" scope="col"><u>Time</u></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Sunday</th>
+                <td>Pickleball Class</td>
+                <td>7:30 p.m. - 9:30 p.m.</td>
+              </tr>
+              <tr>
+                <th scope="row">Monday</th>
+                <td>
+                  Software Development
+                  <div>Calculus 1</div>
+                </td>
+                <td>
+                  11:00 a.m. - 11:50 a.m.
+                  <div>12:00 p.m. - 12:50 p.m.</div>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">Tuesday</th>
+                <td>Calculus Lab</td>
+                <td>12:30 p.m. - 1:20 p.m.</td>
+              </tr>
+              <tr>
+                <th scope="row">Wednesday</th>
+                <td>
+                  Software Development
+                  <div>Calculus 1</div>
+                </td>
+                <td>
+                  11:00 a.m. - 11:50 a.m.
+                  <div>12:00 p.m. - 12:50 p.m.</div>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">Thursday</th>
+                <td>Calculus Lab</td>
+                <td>12:30 p.m. - 1:20 p.m.</td>
+              </tr>
+              <tr>
+                <th scope="row">Friday</th>
+                <td>
+                  Software Development
+                  <div>Calculus 1</div>
+                </td>
+                <td>
+                  11:00 a.m. - 11:50 a.m.
+                  <div>12:00 p.m. - 12:50 p.m.</div>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">Saturday</th>
+                <td>None (work day)</td>
+                <td>All Day</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <br />
+    <hr />
+    <br />
+
+    <!-- Portfolio Section -->
+
+    <div id="portfolio" class="container">
+      <h1><u>My Portfolio</u></h1>
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="card" style="width: 18rem">
+            <img
+              src="Images/Acoustic_Guitar.jpg"
+              class="card-img-top"
+              alt="Acoustic Guitar"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Acoustic Guitar Project</h5>
+              <p class="card-text">
+                This will probably be a future project in my off time when I can
+                afford the materials and tools.
+              </p>
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="popover"
+                data-bs-title="Suprise!"
+                data-bs-content="Doesn't go anywhere, just a popover for fun!"
+              >
+                Click Me!
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card" style="width: 18rem">
+            <img src="Images/Code.jpg" class="card-img-top" alt="Code Image" />
+            <div class="card-body">
+              <h5 class="card-title">Code Project</h5>
+              <p class="card-text">
+                This website is a showcase of my programming skills and projects
+                that I have learned so far and also BootStrap usage as well.
+              </p>
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="popover"
+                data-bs-title="Suprise!"
+                data-bs-content="Doesn't go anywhere, just a popover for fun!"
+              >
+                Click Me!
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card" style="width: 18rem">
+            <img
+              src="Images/Origami.jpg"
+              class="card-img-top"
+              alt="Origami Image"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Origami Project</h5>
+              <p class="card-text">
+                I did origami when I was a kid awhile back. I have been
+                researching on what shapes or objects that I think I would want
+                to sit down and work on.
+              </p>
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="popover"
+                data-bs-title="Suprise!"
+                data-bs-content="Doesn't go anywhere, just a popover for fun!"
+              >
+                Click Me!
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br />
+    <hr />
+    <br />
+
+    <!-- Contact Section -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h1 id="contact"><u>Contact Me</u></h1>
+          <div class="row" style="margin-top: 2em">
+            <div class="col">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="First name"
+                aria-label="First name"
+              />
+            </div>
+            <div class="col">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Last name"
+                aria-label="Last name"
+              />
+            </div>
+          </div>
+          <div class="mb-1" style="margin-top: 1em">
+            <label for="exampleFormControlInput1" class="form-label"
+              >Email address</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="exampleFormControlInput1"
+              placeholder="name@example.com"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label"
+              >Message</label
+            >
+            <textarea
+              class="form-control"
+              id="exampleFormControlTextarea1"
+              rows="3"
+            ></textarea>
+          </div>
+          <button
+            type="button"
+            class="btn btn-lg btn-primary"
+            data-bs-toggle="popover"
+            data-bs-title="Message Sent!"
+            data-bs-content="Doesn't send the message, just a popover for fun!"
+          >
+            Click Me!
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- Bootstrap Script -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+      integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      const popoverTriggerList = document.querySelectorAll(
+        '[data-bs-toggle="popover"]',
+      );
+      const popoverList = [...popoverTriggerList].map(
+        (popoverTriggerEl) => new bootstrap.Popover(popoverTriggerEl),
+      );
+    </script>
+  </body>
+</html>
