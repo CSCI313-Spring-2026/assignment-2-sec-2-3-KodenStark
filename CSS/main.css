@@ -1,19 +1,62 @@
-img {
-  border-radius: 2em;
-  float: left;
+body div {  
+  color: white;
 }
 
-.grid-container {
-  display: grid;
-  place-items: center;
+div h1 {
+  text-align: center;
+}
+
+img {
+  margin-top: 1em;
+  border-radius: 20%;
+  float: right;
+}
+
+.flexcontainer {
+  display: flex;
+  align-items: center;
 }
 
 .headshot {
-  width: 50%;
-  height: auto;
+  width: 100%;
+  height: 100%;
 }
 
 div .col-md-6 {
+  background-color: darkslategray;
   border: solid darkgray;
   margin-top: 20px;
+}
+
+table {
+  border: solid darkgray;
+  margin-top: 20px;
+}
+
+div .col-lg-12 {
+  background-color: darkslategray;
+}
+
+.accordion-body-one{
+  background-color: navy;
+  color: white;
+}
+.accordion-body-two{
+  background-color: darkslategray;
+  color: white;
+}
+.accordion-body-three{
+  background-color: darkslategray;
+  color: white;
+}
+
+.col-md-4 {
+  background-color: darkslategray;
+  border: solid darkgray;
+}
+
+.col-sm-4 {
+  background-color: darkslategray;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
